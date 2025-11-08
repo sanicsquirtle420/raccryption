@@ -2,15 +2,20 @@
 A simple text file encrypter / decrypter.
 
 ## How to use:
-Dependencies: `gcc cmake`
+Dependencies: `gcc cmake `
 
-> [!IMPORTANT]  
-> My default location for output files is in `$(pwd)/out` and for text files it is `$(pwd)/txt_files`.
+### Flags
+* `-e` or `--encrypt`: is used to encrypt a file
+* `-d` or `--decrypt`: is used to decrypt a file
 
 ```bash
 # Compiling the code
 make build
 
 # Running the code
-make run ARGS="path_to_file key"
+./raccryption [FLAG] [FILE_PATH] [KEY]
 ```
+
+## To Do:
+* Plan to add more encryption algorithims
+* A flag to pick the algorithim

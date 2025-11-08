@@ -1,5 +1,6 @@
-.vscode/
-.DS_Store/
-.idea/
-out/
+raccryption
 txt_files/
+.DS_Store/
+.vscode/
+.idea/
+test/
